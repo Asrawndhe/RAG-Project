@@ -52,42 +52,6 @@ Built on LangChain, Gemini (Google Generative AI), and FAISS, MiRAG enables user
 
 ---
 
-## 📦 Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/iamtgiri/MiRAG.git
-   cd MiRAG
-   ```
-
-2. **Create a virtual environment:**
-
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate   # On Windows: .venv\Scripts\activate
-   ```
-
-3. **Install dependencies:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Set environment variable:**
-
-   ```bash
-   export GOOGLE_API_KEY=your_api_key_here 
-   ```
-
-5. **Run the app:**
-
-   ```bash
-   streamlit run app.py
-   ```
-
----
-
 ## 📁 Project Structure
 
 ```dir
@@ -158,10 +122,3 @@ A preview of the MiRAG application in action across different modules:
 - Powered by [Google Gemini](https://ai.google.dev/)
 - PDF export via [FPDF](https://pyfpdf.github.io/)
 - Transcripts via [YouTube Transcript API](https://pypi.org/project/youtube-transcript-api/)
-
----
-
-## 📄 License
-
-MIT License © 2025 [Tanmoy Giri](https://github.com/iamtgiri) \
-See [LICENCE](LICENCE) for details.
